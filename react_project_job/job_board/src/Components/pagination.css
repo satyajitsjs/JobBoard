@@ -1,0 +1,57 @@
+/* components/pagination.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .pagination li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Add this to your CSS file */
+.pagination {
+  display: inline-block;
+}
+
+.pagination .page-item {
+  margin: 0 5px;
+}
+
+.pagination .page-link {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination .page-link:hover {
+  background-color: #f2f2f2;
+}
+
+.pagination .active .page-link {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}

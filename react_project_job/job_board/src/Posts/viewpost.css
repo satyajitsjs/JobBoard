@@ -1,0 +1,13 @@
+
+.comment-wrapper {
+    border-top: 1px solid #0c7a6f;
+    padding-top: 10px;
+  }
+  
+  .reply {
+    margin-left: 20px; 
+  }
+  
+.input-create{
+  border: 1px solid black;
+}
